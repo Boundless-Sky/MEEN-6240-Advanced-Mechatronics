@@ -1,0 +1,4 @@
+make CFLAGS = "-g -x c" or make write CFLAGS = "-g -x c"
+
+to see assembly
+xc32-objdump -S out.elf > out.dis
